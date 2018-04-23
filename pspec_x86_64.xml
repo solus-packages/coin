@@ -2,20 +2,20 @@
     <Source>
         <Name>coin</Name>
         <Packager>
-            <Name>Stig Svensson</Name>
-            <Email>stigarn@protonmail.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-3.0</License>
+        <License>GPL-3.0-or-later</License>
         <PartOf>office.finance</PartOf>
         <Summary xml:lang="en">Track the virtual currencies in real world currency value.</Summary>
-        <Description xml:lang="en">Track the virtual currencies in real world currency value. 
+        <Description xml:lang="en">Track the virtual currencies in real world currency value.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>coin</Name>
         <Summary xml:lang="en">Track the virtual currencies in real world currency value.</Summary>
-        <Description xml:lang="en">Track the virtual currencies in real world currency value. 
+        <Description xml:lang="en">Track the virtual currencies in real world currency value.
 </Description>
         <PartOf>office.finance</PartOf>
         <Files>
@@ -40,12 +40,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-02-25</Date>
-            <Version>1.2.0</Version>
+        <Update release="2">
+            <Date>2018-04-23</Date>
+            <Version>1.2.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Stig Svensson</Name>
-            <Email>stigarn@protonmail.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>

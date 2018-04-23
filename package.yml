@@ -1,22 +1,22 @@
 name       : coin
-version    : 1.2.0
-release    : 1
+version    : 1.2.2
+release    : 2
 source     :
-    - https://github.com/lainsce/coin/archive/1.2.0.tar.gz : 7a66abe026e55badde4ac5ef1234533b444dd9a4544cd7875524383f3402bbdc
-license    : GPL-3.0
+    - https://github.com/lainsce/coin/archive/1.2.2.tar.gz : 7b3896711424f335b2f84cdcbc67c487cb0c1e0f78d5f1696c02dd8e76a63172
+license    : GPL-3.0-or-later
 component  : office.finance
-summary    : Track the virtual currencies in real world currency value. 
+summary    : Track the virtual currencies in real world currency value.
 description: |
-    Track the virtual currencies in real world currency value. 
+    Track the virtual currencies in real world currency value.
 builddeps  :
     - pkgconfig(granite)
-    - pkgconfig(libsoup-2.4)
     - pkgconfig(json-glib-1.0)
-    - vala
+    - pkgconfig(libsoup-2.4)
     - meson
+    - vala
 setup      : |
     %meson_configure -Dprefix=/usr/bin
 build      : |
-    %meson_build
+    %ninja_build
 install    : |
-    %meson_install
+    %ninja_install
