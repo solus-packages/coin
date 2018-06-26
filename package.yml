@@ -1,6 +1,6 @@
 name       : coin
 version    : 1.2.2
-release    : 2
+release    : 3
 source     :
     - https://github.com/lainsce/coin/archive/1.2.2.tar.gz : 7b3896711424f335b2f84cdcbc67c487cb0c1e0f78d5f1696c02dd8e76a63172
 license    : GPL-3.0-or-later
@@ -15,7 +15,7 @@ builddeps  :
     - meson
     - vala
 setup      : |
-    %meson_configure -Dprefix=/usr/bin
+    %meson_configure
 build      : |
     %ninja_build
 install    : |
