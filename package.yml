@@ -1,8 +1,8 @@
 name       : coin
-version    : 1.2.2
-release    : 3
+version    : 1.2.3
+release    : 4
 source     :
-    - https://github.com/lainsce/coin/archive/1.2.2.tar.gz : 7b3896711424f335b2f84cdcbc67c487cb0c1e0f78d5f1696c02dd8e76a63172
+    - https://github.com/lainsce/coin/archive/1.2.3.tar.gz : 776545b27eb934acdde960d080806583f7e1ae5228b357300bb7c836712e558f
 license    : GPL-3.0-or-later
 component  : office.finance
 summary    : Track the virtual currencies in real world currency value.
@@ -15,6 +15,7 @@ builddeps  :
     - meson
     - vala
 setup      : |
+    %patch -p1 < $pkgfiles/0001-Update-to-1.2.3.-Make-some-QoL-changes-to-our-shippe.patch
     %meson_configure
 build      : |
     %ninja_build
