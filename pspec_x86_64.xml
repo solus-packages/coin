@@ -2,8 +2,8 @@
     <Source>
         <Name>coin</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>office.finance</PartOf>
@@ -35,17 +35,18 @@
             <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/com.github.lainsce.coin.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/64x64@2/apps/com.github.lainsce.coin.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/com.github.lainsce.coin-symbolic.svg</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/com.github.lainsce.coin.mo</Path>
             <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/com.github.lainsce.coin.mo</Path>
             <Path fileType="data">/usr/share/metainfo/com.github.lainsce.coin.appdata.xml</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2018-08-18</Date>
-            <Version>1.2.3</Version>
+        <Update release="5">
+            <Date>2018-12-29</Date>
+            <Version>1.2.5</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
