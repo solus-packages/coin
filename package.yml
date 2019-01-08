@@ -1,6 +1,6 @@
 name       : coin
 version    : 1.2.5
-release    : 5
+release    : 6
 source     :
     - https://github.com/lainsce/coin/archive/1.2.5.tar.gz : b552e03eeef6245b76edb320c4182e855453170eb0d4041ec95b8feaee66592d
 license    : GPL-3.0-or-later
