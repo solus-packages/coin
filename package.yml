@@ -1,8 +1,8 @@
 name       : coin
-version    : 1.2.5
-release    : 6
+version    : 1.2.6
+release    : 7
 source     :
-    - https://github.com/lainsce/coin/archive/1.2.5.tar.gz : b552e03eeef6245b76edb320c4182e855453170eb0d4041ec95b8feaee66592d
+    - https://github.com/lainsce/coin/archive/1.2.6.tar.gz : 61ea4e0780f2e4ffcf67b0ebec4c36d3813e0bc9a7bac217d3444a1568f2de26
 license    : GPL-3.0-or-later
 component  : office.finance
 summary    : Track the virtual currencies in real world currency value.
