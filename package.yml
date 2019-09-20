@@ -1,6 +1,6 @@
 name       : coin
 version    : 1.2.6
-release    : 7
+release    : 8
 source     :
     - https://github.com/lainsce/coin/archive/1.2.6.tar.gz : 61ea4e0780f2e4ffcf67b0ebec4c36d3813e0bc9a7bac217d3444a1568f2de26
 license    : GPL-3.0-or-later
